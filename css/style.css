@@ -22,9 +22,33 @@
 /*******************************************/
 
 body {
-
+     margin: 5%;
 }
 
+h1{
+     text-align: center;
+}
+
+.buttons{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     /* margin: 0 auto; */
+}
+
+.gameBody{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
+
+.playerOne, .playerTwo{
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+     text-align: center;
+}
 
 /******************************************
 /* LAYOUT

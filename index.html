@@ -14,20 +14,26 @@
 	<body>
 
 		<h1>War!: The Card Game</h1>
-		<button type="button" name="button" class = "runButton">WAR!</button>
-		<button type="button" name= 'resetButton'>RESET</button>
+		<section class="buttons">
+			<button type="button" name="button" class = "runButton">WAR!</button>
+			<button type="button" name= 'resetButton' class = 'resetButton'>RESET</button>
+		</section>
 
-		<section class = 'playerOne'>
-			<h2>Player 1</h2>
-			<img src="" alt="">
-			<h3>Value</h3>
+
+		<section class = 'gameBody'>
+			<section class = 'playerOne'>
+				<h2>Player 1</h2>
+				<img class = 'playerOneImage' src="" alt="">
+				<h3 class = 'playerOneValue'>Value</h3>
+			</section>
+			
+			<section class = 'playerTwo'>
+				<h2>Player 2</h2>
+				<img  class = 'playerTwoImage' src="" alt="">
+				<h3 class = 'playerTwoValue' >Value</h3>
+			</section>		
 		</section>
 		
-		<section class = 'playerTwo'>
-			<h2>Player 2</h2>
-			<img src="" alt="">
-			<h3>Value</h3>
-		</section>		
 		
 
 		<script type="text/javascript" src="js/main.js"></script>
