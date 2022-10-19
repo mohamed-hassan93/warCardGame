@@ -25,7 +25,7 @@ body {
      margin: 5%;
 }
 
-h1{
+h1,h3{
      text-align: center;
 }
 
@@ -48,6 +48,27 @@ h1{
      align-content: center;
      flex-direction: column;
      text-align: center;
+}
+
+.scoreTally{
+     border: black 1px solid;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin: 5% auto;
+     width: 20%;
+     height: 40%;
+}
+
+.scoreTally section{
+     border: red 1px solid;
+     width: 50%;
+     text-align: center;
+     font-weight: bold;
+}
+
+.scoreTally .score{
+     color: navy
 }
 
 /******************************************
